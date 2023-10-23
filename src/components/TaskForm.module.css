@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    align-items: center;
+    
+}
+
+.form input {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--gray-500);
+    color: var(--gray-100);
+    width: 80%;
+}
+
+.form button {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.form button:hover {
+    background: var(--blue);
+}
