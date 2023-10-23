@@ -1,0 +1,22 @@
+.taskCount {
+    width: 90%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers {
+    color: var(--gray-100);
+    margin-left: 1rem;
+    background: var(--gray-400);
+    border-radius: 8px;
+    padding: 0.1rem 0.5rem;
+}
+
+.total p {
+    color: var(--blue);
+}
+
+.done p {
+    color: var(--purple);
+}
